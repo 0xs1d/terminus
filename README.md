@@ -2,7 +2,9 @@
 
 **Terminus** is an open-source, intelligent CLI-based AI agent with support for both **chat** and **voice** modes. Designed for natural interaction and seamless productivity, Terminus acts as your command-line companion—powered by advanced language models and speech processing.  
 
-![Logo](public/terminus.png)
+<div align="center">
+  <img src="public/terminus.png" alt="Logo" width="350"/>
+</div>
 
 
 <!-- 🔥 Feature Badges -->
