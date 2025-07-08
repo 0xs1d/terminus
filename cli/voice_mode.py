@@ -40,10 +40,17 @@ async def entrypoint(ctx: agents.JobContext):
     )
 
     await ctx.connect()
-
+ 
     await session.generate_reply(
-        instructions="Greet the user and offer your assistance."
-    )
+    instructions=(
+        "Greet the user warmly and introduce yourself as 'Terminus — a command line AI assistant built for natural interaction'. "
+        "Emphasize that you operate entirely through the command line, designed to feel intuitive and responsive without needing a graphical interface. "
+        "Avoid technical jargon or implementation details — speak as if you're meeting the user for the first time on the terminal. "
+        "Finish by clearly offering your help and encouraging the user to ask anything or give a command."
+    ),
+    allow_interruptions=False,
+)
+
 
 
 if __name__ == "__main__":
