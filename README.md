@@ -33,6 +33,25 @@
 
 ## 📦 Dependencies
 
+Pre-requiste setup: 
+```
+git clone https://github.com/0xs1d/terminus.git
+cd terminus
+pip install -r requirements.txt
+python cli/agent.py download-files
+python cli/main.py     # fires the agent in voice mode
+```
+
+This project is also dependent on following apis:
+```
+DEEPGRAM_API_KEY=<Your Deepgram API Key>
+OPENAI_API_KEY=<Your OpenAI API Key>
+CARTESIA_API_KEY=<Your Cartesia API Key>
+LIVEKIT_API_KEY=<your API Key>
+LIVEKIT_API_SECRET=<your API Secret>
+LIVEKIT_URL=<your LiveKit server URL>
+COMPOSIO_API_KEY=<your composio API Key>
+```
 
 ## 🙌 Contribute
 
