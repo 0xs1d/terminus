@@ -29,7 +29,7 @@ def show_footer():
     footer.append("Tips for getting started:\n", style="dim")
     footer.append("• Ask questions, edit files, or run commands.\n")
     footer.append("• Be specific for the best results.\n")
-    footer.append("• Use '--help' to explore options.\n")
+    footer.append("• Use '-h' or '--help' to explore options.\n")
     panel = Panel(footer, border_style="purple", padding=(1, 2))
     console.print(panel)
 
