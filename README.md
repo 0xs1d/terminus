@@ -17,6 +17,9 @@
   <img src="https://img.shields.io/badge/Cross--Platform-macOS%20%7C%20Linux%20%7C%20WSL-lightgrey?style=for-the-badge&logo=python" />
 </p>
 
+![Demo](public/demo.gif)
+
+
 ## ✨ Features
 
 | Feature | Description |
